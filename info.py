@@ -76,7 +76,7 @@ SUPPORT_LINK = environ.get('SUPPORT_LINK', 'https://t.me/+K7ss_DvjBBljNDll')
 OWNER_USERNAME = environ.get("OWNER_USERNAME", "https://t.me/Chakri_05")
 UPDATES_LINK = environ.get('UPDATES_LINK', 'https://t.me/Telugumacha_updates')
 FILMS_LINK = environ.get('FILMS_LINK', 'https://t.me/+K7ss_DvjBBljNDll')
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/watch098/14")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/watch098/16")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/watch098/13")
 
 # Bot settings
@@ -87,8 +87,8 @@ LANGUAGES = [language.lower() for language in environ.get('LANGUAGES', 'hindi en
 QUALITY = [quality.lower() for quality in environ.get('QUALITY', '360p 480p 720p 1080p 2160p').split()]
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", script.IMDB_TEMPLATE)
 FILE_CAPTION = environ.get("FILE_CAPTION", script.FILE_CAPTION)
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "moneycase.link")
-SHORTLINK_API = environ.get("SHORTLINK_API", "580a96594d27d0ece3b4734284ecff4d2246d57e")
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "publicearn.com")
+SHORTLINK_API = environ.get("SHORTLINK_API", "7655df20e7a07331eb407cf5560d4a20f54d295a")
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
 INDEX_EXTENSIONS = [extensions.lower() for extensions in environ.get('INDEX_EXTENSIONS', 'mp4 mkv').split()]
